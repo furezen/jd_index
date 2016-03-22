@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> new document </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="jd_index.css" >
+ </head>
+ <body>
+  <!-- 页面顶部 -->
+  <!-- 顶部容器 ：width:100% -->
+  <header id="top">
+    <!-- 内容显示区域 ：width : 1211px -->
+	<div id="top_box">
+		<img src="Images/star.jpg" />
+		<a class="lf" href="#">收藏京东</a>
+		<ul class="rt">
+			<li>
+				您好，欢迎来到京东!
+				<a href="#">[登录]</a>
+				<a href="#">[免费注册]</a>
+			</li>
+			<li>
+				<b></b> <!-- 边框 -->
+				<a href="#">我的订单</a>
+			</li>
+			<li class="vip">
+				<b></b>
+				<a href="#">会员俱乐部</a>
+			</li>
+			<li class="dakehu">
+				<b></b>
+				<a href="#">企业频道</a>
+			</li>
+			<li class="app_jd">
+				<b></b>
+				<a href="#">手机京东</a>
+			</li>
+			<li class="service">
+				<b></b>
+				<a href="#">客户服务</a>
+				<ul>
+					<li>
+						<a href="#">帮助中心</a>
+					</li>
+					<li>
+						<a href="#">售后服务</a>
+					</li>
+					<li>
+						<a href="#">在线客服</a>
+					</li>
+					<li>
+						<a href="#">投诉中心</a>
+					</li>
+					<li>
+						<a href="#">客服邮箱</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<b></b>
+				<a href="#">网站导航</a>
+			</li>
+		</ul>
+	</div>
+  </header>
+  <!-- logo 和 搜索框 -->
+  <div id="top_main">
+    <!-- LOGO -->
+	<a href="#" class="lf">
+		<img src="Images/logo-201305.png" />
+	</a>
+	<!-- 搜索框 和 热门搜索 -->
+	<div id="search_box" class="lf">
+		<!-- 搜索 框 -->
+		<div class="search">
+			<input class="text" />
+			<input type="button" class="button" value="搜索" />
+		</div>
+		<!-- 热门搜索 -->
+		<div class="hot_words">
+			<span>热门搜索:</span>
+			<a href="#">家纺11月大促</a>
+			<a href="#">彩虹电热毯</a>
+			<a href="#">博洋家纺</a>
+			<a href="#">霞珍</a>
+			<a href="#">床垫床褥</a>
+		</div>
+	</div>
+	<!-- 我的京东 -->
+	<div id="my_jd" class="lf">我的京东<b></b></div>
+	<!-- 去购物车结算 -->
+
+	<!-- 撑起父元素高度 -->
+	<div class="clear"></div>
+  </div>
+  <!-- 导航 -->
+  <nav id="nav">
+    <!-- 全部商品分类 -->
+	<p id="category">
+		<a href="#">全部商品分类</a>
+		<b></b>
+	</p>
+	<!-- 导航内容 -->
+	<ul id="nav_items" class="lf">
+		<li>
+			<a href="#">首页</a>
+		</li>
+		<li>
+			<a href="#">服装城</a>
+		</li>
+		<li>
+			<a href="#">食品</a>
+		</li>
+		<li>
+			<a href="#">团购</a>
+		</li>
+		<li>
+			<a href="#">夺宝岛</a>
+		</li>
+		<li>
+			<a href="#">闪购</a>
+		</li>
+		<li>
+			<a href="#">金融</a>
+		</li>
+	</ul>
+  </nav>
+  <!-- banner 广告 -->
+  <div id="banner">
+	<!-- 子分类信息 -->
+	<ul id="cate_box" class="lf">
+		<li>
+			<h3>
+				<a href="#">图书、音像、数字商品</a>
+			</h3>
+			<div id="sub_cate_box" class="sub_cate_box">
+				<!-- 1、子分类内容 -->
+				<div class="sub_cate_content">
+					<ul>
+						<li class="title">
+							<a href="#">电子书</a>
+						</li>
+						<li>
+							<a href="#">免费</a>
+						</li>
+						<li>
+							<a href="#">小说</a>
+						</li>
+						<li>
+							<a href="#">励志与成功</a>
+						</li>
+						<li>
+							<a href="#">婚恋/良性</a>
+						</li>
+						<li>
+							<a href="#">文学</a>
+						</li>
+					</ul>
+					<ul>
+						<li class="title">
+							<a href="#">电子书</a>
+						</li>
+						<li>
+							<a href="#">免费</a>
+						</li>
+						<li>
+							<a href="#">小说</a>
+						</li>
+						<li>
+							<a href="#">励志与成功</a>
+						</li>
+						<li>
+							<a href="#">婚恋/良性</a>
+						</li>
+						<li>
+							<a href="#">文学</a>
+						</li>
+					</ul>
+				</div>
+				<!-- 2、推荐出版商 -->
+				<div class="sub_banner">
+					<!-- 1、图片 -->
+					<p>
+						<a href="#">
+							<img src="Images/cate_banner_01.jpg" />
+						</a>
+					</p>
+					<!-- 2、图片 -->
+					<p>
+						<a href="#">
+							<img src="Images/cate_banner_02.jpg" />
+						</a>
+					</p>
+					<!-- 3、推荐品牌出版商-->
+					<h4>
+						推荐品牌出版商/书店
+					</h4>
+					<!-- 4、文本列表-->
+					<ul>
+						<li>
+							<a href ="#">中华书局</a>
+						</li>
+						<li>
+							<a href ="#">中华书局</a>
+						</li>
+						<li>
+							<a href ="#">中华书局</a>
+						</li>
+						<li>
+							<a href ="#">中华书局</a>
+						</li>
+						<li>
+							<a href ="#">中华书局</a>
+						</li>
+						<li>
+							<a href ="#">中华书局</a>
+						</li>
+					</ul>
+				</div>
+				<!-- 3、关闭元素 -->
+				<div class="close" onclick="document.getElementById('sub_cate_box').style.display='none'">×</div>
+			</div>
+		</li>
+		<li>
+			<h3>
+				<a href="#">家用电器</a>
+			</h3>
+		</li>
+	</ul>
+	<!-- banner 广告 -->
+	<div id="jd_banner">
+		<div id="banner_top">
+			<img src="Images/index/banner_02.jpg" />
+			<ul>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+			</ul>
+		</div>
+		<!-- 三幅图 两个 方向按钮 -->
+		<div id="banner_bottom">
+			<a class="left"></a>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="Images/index/ad_01.jpg" />
+					</a>
+				</li>
+				<li class="middle">
+					<a href="#">
+						<img src="Images/index/ad_02.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="Images/index/ad_03.jpg" />
+					</a>
+				</li>
+			</ul>
+			<a class="right"></a>
+		</div>
+	</div>
+	<!-- 京东快报 -->
+	<div id="banner_other">
+		<a href="#">
+			<img src="Images/index/ad_focus.jpg" />
+		</a>
+		<div class="news">
+			<div class="title">
+				<span>京东快报</span>
+				<a href="#">更多快报&gt;</a>
+			</div>
+			<div class="content">
+				<ul>
+					<li>
+						<a href="#">松鼠好年货2折开抢</a>
+					</li>
+					<li>
+						<a href="#">松鼠好年货2折开抢</a>
+					</li>
+					<li>
+						<a href="#">松鼠好年货2折开抢</a>
+					</li>
+					<li>
+						<a href="#">松鼠好年货2折开抢</a>
+					</li>
+				</ul>
+				<ul class="right">
+					<li>
+						<a href="#">松鼠好年货2折开抢</a>
+					</li>
+					<li>
+						<a href="#">松鼠好年货2折开抢</a>
+					</li>
+					<li>
+						<a href="#">松鼠好年货2折开抢</a>
+					</li>
+					<li>
+						<a href="#">松鼠好年货2折开抢</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 虚拟相关 -->
+		<div class="virtuals">
+			<ul>
+				<li class="huafei">
+					<a href="#">
+						<s></s> <!-- 显示背景图 -->
+						话费
+						<b></b> <!-- 下拉三角 -->
+					</a>
+				</li>
+				<li class="jipiao">
+					<a href="#">
+						<s></s> <!-- 显示背景图 -->
+						机票
+						<b></b> <!-- 下拉三角 -->
+					</a>
+				</li>
+				<li class="huafei">
+					<a href="#">
+						<s></s> <!-- 显示背景图 -->
+						话费
+						<b></b> <!-- 下拉三角 -->
+					</a>
+				</li>
+				<li class="huafei">
+					<a href="#">
+						<s></s> <!-- 显示背景图 -->
+						话费
+						<b></b> <!-- 下拉三角 -->
+					</a>
+				</li>
+				<li class="huafei">
+					<a href="#">
+						<s></s> <!-- 显示背景图 -->
+						话费
+					</a>
+				</li>
+				<li class="huafei">
+					<a href="#">
+						<s></s> <!-- 显示背景图 -->
+						话费
+					</a>
+				</li>
+				<li class="huafei">
+					<a href="#">
+						<s></s> <!-- 显示背景图 -->
+						话费
+					</a>
+				</li>
+				<li class="huafei">
+					<a href="#">
+						<s></s> <!-- 显示背景图 -->
+						话费
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 撑起父元素高度 -->
+	<div class="clear"></div>
+  </div>
+  <!-- 网页主体 -->
+  <section id="main">
+	<!-- 生活的橱窗 ... -->
+	<div id="show_box">
+		<p>
+			生活的橱窗
+			<span>每一天展示精彩</span>
+		</p>
+		<ul>
+			<li class="pinpaijie"> <!-- 相对定位 -->
+				<b></b><!-- 遮罩层 -->
+				<!-- 文字 : 绝对定位 --> 
+				<div>
+					 <h3>品牌街</h3>
+					 <h4>三星note</h4>
+					 <h5>赠500京东E卡</h5>
+					 <ul>
+						<li>
+							<i></i>
+							<a href="#">更多品牌</a>
+						</li>
+						<li>
+							<i></i>
+							<a href="#">进入品牌街</a>
+						</li>
+					 </ul>
+				</div>
+			</li>
+			<li class="pinpaijie">
+				<b></b><!-- 遮罩层 -->
+				<div>
+					 <h3>天天低价</h3>
+					 <h4>坚果礼盒</h4>
+					 <span>95.8元秒杀</span>
+				</div>
+			</li>
+			<li class="pinpaijie">
+				<b></b><!-- 遮罩层 -->
+			</li>
+			<li class="pinpaijie">
+				<b></b><!-- 遮罩层 -->
+				<div>
+					<h3>今日团购</h3>
+					<h4>100元代金券</h4>
+					<!-- 参团 -->
+					<div>
+						团购价<span>￥89</span>
+					</div>
+				</div>
+			</li>
+			<li class="pinpaijie">
+				<b></b><!-- 遮罩层 -->
+			</li>
+			<li class="pinpaijie">
+				<b></b><!-- 遮罩层 -->
+			</li>
+			<li class="pinpaijie">
+				<b></b><!-- 遮罩层 -->
+			</li>
+			<li class="pinpaijie">
+				<b></b><!-- 遮罩层 -->
+			</li>
+		</ul>
+	</div>
+	<!-- 周生生 .... -->
+	<ul id="advs">
+		<li>
+			<a>
+				<img src="Images/index/ad_small_01.jpg" />
+			</a>
+		</li>
+		<li>
+			<a>
+				<img src="Images/index/ad_small_02.jpg" />
+			</a>
+		</li>
+		<li>
+			<a>
+				<img src="Images/index/ad_small_03.jpg" />
+			</a>
+		</li>
+	</ul>
+	<!-- 1F -->
+	<div class="floor">
+		<!-- 楼层上的标题信息 -->
+		<header>
+			<span>1F</span>
+			<p>家电通讯</p>
+			<ul class="tab lf">
+				<li>
+					<a href="#">特价商品</a>
+				</li>
+				<li>
+					<a href="#">大家电</a>
+				</li>
+				<li>
+					<a href="#">小家电</a>
+				</li>
+				<li>
+					<a href="#">手机通讯</a>
+				</li>
+				<li>
+					<a href="#">汽车五金</a>
+				</li>
+			</ul>
+			<ul class="link lf">
+				<li>
+					<a href="#">合约计划说明</a>
+				</li>
+				<li>
+					<a href="#">大家电配送</a>
+				</li>
+			</ul>
+		</header>
+		<!-- 1、手机、空调 -->
+		<aside class="lf">
+			<ul>
+				<li>
+					<a href="#">手机</a>
+				</li>
+				<li>
+					<a href="#">手机</a>
+				</li>
+				<li>
+					<a href="#">手机</a>
+				</li>
+				<li>
+					<a href="#">手机</a>
+				</li>
+				<li>
+					<a href="#">手机</a>
+				</li>
+				<li>
+					<a href="#">手机</a>
+				</li>
+				<li>
+					<a href="#">手机</a>
+				</li>
+				<li>
+					<a href="#">手机</a>
+				</li>
+				<li>
+					<a href="#">手机</a>
+				</li>
+				<li>
+					<a href="#">手机</a>
+				</li>
+				<li>
+					<a href="#">手机</a>
+				</li>
+				<li>
+					<a href="#">手机</a>
+				</li>
+				<li>
+					<a href="#">手机</a>
+				</li>
+				<li>
+					<a href="#">手机</a>
+				</li>
+				<li>
+					<a href="#">手机</a>
+				</li>
+				<li>
+					<a href="#">手机</a>
+				</li>
+			</ul>
+			<span>
+				<img src="Images/index/fl_01.jpg" />
+			</span>
+		</aside>
+		<!-- 2、乐蒙K3-->
+		<section>
+			<dl>
+				<dt>
+					<a href="#">
+						<img src="Images/index/fl_dl_01.jpg" />
+					</a>
+				</dt>
+				<dd class="first">
+					<a href="#">
+						48英寸智能电视2499,55英寸智能电视3499
+					</a>
+				</dd>
+				<dd>
+					<b>送澳门风云2电影票</b>
+				</dd>
+			</dl>
+			<div>
+				<img src="Images/index/fl_ad_01.jpg" />
+			</div>
+			<dl>
+				<dt>
+					<a href="#">
+						<img src="Images/index/fl_dl_01.jpg" />
+					</a>
+				</dt>
+				<dd>
+					<a href="#">
+						48英寸智能电视2499,55英寸智能电视3499
+					</a>
+				</dd>
+				<dd>
+					<b>送澳门风云2电影票</b>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#">
+						<img src="Images/index/fl_dl_01.jpg" />
+					</a>
+				</dt>
+				<dd>
+					<a href="#">
+						48英寸智能电视2499,55英寸智能电视3499
+					</a>
+				</dd>
+				<dd>
+					<b>送澳门风云2电影票</b>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#">
+						<img src="Images/index/fl_dl_01.jpg" />
+					</a>
+				</dt>
+				<dd>
+					<a href="#">
+						48英寸智能电视2499,55英寸智能电视3499
+					</a>
+				</dd>
+				<dd>
+					<b>送澳门风云2电影票</b>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#">
+						<img src="Images/index/fl_dl_01.jpg" />
+					</a>
+				</dt>
+				<dd>
+					<a href="#">
+						48英寸智能电视2499,55英寸智能电视3499
+					</a>
+				</dd>
+				<dd>
+					<b>送澳门风云2电影票</b>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#">
+						<img src="Images/index/fl_dl_01.jpg" />
+					</a>
+				</dt>
+				<dd>
+					<a href="#">
+						48英寸智能电视2499,55英寸智能电视3499
+					</a>
+				</dd>
+				<dd>
+					<b>送澳门风云2电影票</b>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#">
+						<img src="Images/index/fl_dl_01.jpg" />
+					</a>
+				</dt>
+				<dd>
+					<a href="#">
+						48英寸智能电视2499,55英寸智能电视3499
+					</a>
+				</dd>
+				<dd>
+					<b>送澳门风云2电影票</b>
+				</dd>
+			</dl>
+		</section>
+		<!-- 3、NOKIA TCL -->
+		<aside class="rt">
+			<ul>
+				<li>
+					<img src="Images/index/rBEQWVFQLqgIAAAAAAAFbgvhBqMAAC0MAP_3cIAAAWG414.gif" />
+				</li>
+				<li>
+					<img src="Images/index/rBEQWVFQLqgIAAAAAAAFbgvhBqMAAC0MAP_3cIAAAWG414.gif" />
+				</li>
+				<li>
+					<img src="Images/index/rBEQWVFQLqgIAAAAAAAFbgvhBqMAAC0MAP_3cIAAAWG414.gif" />
+				</li>
+				<li>
+					<img src="Images/index/rBEQWVFQLqgIAAAAAAAFbgvhBqMAAC0MAP_3cIAAAWG414.gif" />
+				</li>
+				<li>
+					<img src="Images/index/rBEQWVFQLqgIAAAAAAAFbgvhBqMAAC0MAP_3cIAAAWG414.gif" />
+				</li>
+				<li>
+					<img src="Images/index/rBEQWVFQLqgIAAAAAAAFbgvhBqMAAC0MAP_3cIAAAWG414.gif" />
+				</li>
+				<li>
+					<img src="Images/index/rBEQWVFQLqgIAAAAAAAFbgvhBqMAAC0MAP_3cIAAAWG414.gif" />
+				</li>
+				<li>
+					<img src="Images/index/rBEQWVFQLqgIAAAAAAAFbgvhBqMAAC0MAP_3cIAAAWG414.gif" />
+				</li>
+				<li>
+					<img src="Images/index/rBEQWVFQLqgIAAAAAAAFbgvhBqMAAC0MAP_3cIAAAWG414.gif" />
+				</li>
+				<li>
+					<img src="Images/index/rBEQWVFQLqgIAAAAAAAFbgvhBqMAAC0MAP_3cIAAAWG414.gif" />
+				</li>
+			</ul>
+			<img src="Images/index/fl_ad_02.jpg" />
+		</aside>
+	</div>
+	<!-- 热门晒单 -->
+	<div id="shaidan">
+		<h1>热门晒单<h1/>
+		<div>
+		<div  class="shaidanpic"><img src="Images/index/share_01.jpg"></div><!--左浮动-->
+		<div class="shaidantext"><!--左浮动-->
+		<h4 class="shaidan_title"><a href="#">卡呦yoyo4.0蓝牙音箱低音炮立体声音响</a></h4>
+		<p class="shaidan_title">音质还可以，不错的很小，很大声，很好看</p>
+		</div>
+		
+		</div>
+	<div class="clear"></div>
+	</div>
+
+  </section>
+  <!-- 配送方式 -->
+  <footer id="foot_box">
+	<!-- 1、购物指南 -->
+	<p class="shopping_guide"></p>
+	<ul>
+		<li>
+			<b>购物指南</b>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+	</ul>
+	<!-- 2、配送方式 -->
+	<p class="shopping_guide"></p>
+	<ul>
+		<li>
+			<b>购物指南</b>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+	</ul>
+	<!-- 3、支付方式 -->
+	<p class="shopping_guide"></p>
+	<ul>
+		<li>
+			<b>购物指南</b>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+	</ul>
+	<!-- 4、售后服务 -->
+	<p class="shopping_guide"></p>
+	<ul>
+		<li>
+			<b>购物指南</b>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+	</ul>
+	<!-- 5、特色服务 -->
+	<p class="shopping_guide"></p>
+	<ul>
+		<li>
+			<b>购物指南</b>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+		<li>
+			<a href="#">购物流程</a>
+		</li>
+	</ul>
+  </footer>
+  <!-- 版权声明 -->
+  <footer id="foot">
+	<div class="links">
+		<a href="#">关于我们</a>|
+		<a href="#">联系我们</a>|
+		<a href="#">人才招聘</a>|
+		<a href="#">商家入驻</a>|
+		<a href="#">广告服务</a>|
+		<a href="#">关于我们</a>|
+		<a href="#">联系我们</a>|
+		<a href="#">人才招聘</a>|
+		<a href="#">商家入驻</a>|
+		<a href="#">广告服务</a>
+	</div>
+	<div class="text">
+		北京市公安局朝阳分局备案编号110105014669 | 京ICP证070359号 | 互联网药品信息服务资格证编号(京)-非经营性-2011-0034<br>
+<a href="#">音像制品经营许可证苏宿批005号</a> | 出版物经营许可证编号新出发(苏)批字第N-012号 | 互联网出版许可证编号新出网证(京)字150号<br>
+网络文化经营许可证京网文[2011]0168-061号 Copyright © 2004-2014 京东JD.com 版权所有 <br>
+京东旗下网站： English Site 拍拍网 网银在线
+	</div>
+	<div class="imgs">
+		<a href="#">
+			<img src="Images/cx.jpg" >
+		</a>
+		<a href="#">
+			<img src="Images/cy.jpg" >
+		</a>
+		<a href="#">
+			<img src="Images/kx.jpg" >
+		</a>
+		<a href="#">
+			<img src="Images/jy.jpg" >
+		</a>
+	</div>
+  </footer>
+ </body>
+</html>
